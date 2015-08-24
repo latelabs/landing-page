@@ -58,20 +58,20 @@ Keen.ready(function(){
           keen: {
               timestamp: new Date().toISOString(),
               addons: [
-                  // {
-                  //     name: 'keen:ip_to_geo',
-                  //     input: {
-                  //         ip: 'tech.ip'
-                  //     },
-                  //     output: 'geo'
-                  // },
-                  // {
-                  //     name: 'keen:ua_parser',
-                  //     input: {
-                  //         ua_string: 'tech.ua'
-                  //     },
-                  //     output: 'tech.info'
-                  // },
+                  {
+                      name: 'keen:ip_to_geo',
+                      input: {
+                          ip: 'tech.ip'
+                      },
+                      output: 'geo'
+                  },
+                  {
+                      name: 'keen:ua_parser',
+                      input: {
+                          ua_string: 'tech.ua'
+                      },
+                      output: 'tech.info'
+                  },
                   {
                       name: 'keen:url_parser',
                       input: {
